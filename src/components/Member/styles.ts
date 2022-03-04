@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 import { text, title } from '../../../styles/theme';
-import bgImg from '../../assets/bloco_final_image.svg';
 
 export const Container = styled.header`
   flex-direction: column;
   display: flex; ;
-  background: url(${bgImg}) no-repeat top right;
+  background: url('../../../img/bloco_final_image.svg') no-repeat top right;
   background-size: 350px;
   padding-bottom: 8rem;
   @media (min-width: 414px) {

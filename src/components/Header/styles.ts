@@ -1,21 +1,21 @@
 import styled from 'styled-components';
-import { text, title } from '../../styles/theme';
+import { text, title } from '../../../styles/theme';
 import bgImg from '../../assets/Illustration.svg';
 
 export const Container = styled.header`
   flex-direction: column;
-  background: url(${bgImg}) no-repeat top right;
+  background: url('../../../img/Illustration.svg') no-repeat top right;
   background-size: 100px;
 
- 
+
   @media (max-width: 1920px) {
     background-size: 63%;
     padding-bottom: 5rem;
   }
 
   .col {
-    flex-direction: column;  
-    margin-bottom: 2rem; 
+    flex-direction: column;
+    margin-bottom: 2rem;
     h1 {
       font-size: 1.3rem;
       font-weight: bold;
@@ -23,7 +23,7 @@ export const Container = styled.header`
       margin-left: 1rem;
       line-height: 1.9rem;
       color: ${title};
-      
+
     }
     form {
       display: flex;
@@ -35,7 +35,7 @@ export const Container = styled.header`
         height: 40px;
         border: solid 1px #2D3561;
         border-radius: 5px;
-     
+
         color: ${text};
         font-size: 16px;
         &:focus {
@@ -47,7 +47,7 @@ export const Container = styled.header`
       color: #B4B4B4;
       padding-left: 0.9rem;
     }
-    
+
   }
   .img {
 
@@ -76,7 +76,7 @@ export const Container = styled.header`
         width: 50%;
       }
     }
-  } 
+  }
   @media (min-width: 1280px) {
     background-size: 55.2%;
     display: grid;
@@ -84,13 +84,13 @@ export const Container = styled.header`
     .col {
       margin-bottom: 10rem;
       h1 {
-        margin-left: 8rem;   
+        margin-left: 8rem;
         font-size: 3rem;
         line-height: 3rem;
       }
       form {
         justify-content: unset;
-        margin-left: 8rem;      
+        margin-left: 8rem;
         input {
           margin-right: 2rem;
           width: 21.438rem;
@@ -107,7 +107,7 @@ export const Button = styled.button`
   border: none;
   border-radius: 5px;
   background:  #BADC58;
-  
+
   cursor: pointer;
   .link {
     font-size: 16px;

@@ -1,9 +1,4 @@
-
 import { Container, Description, Img, Content, Card } from './styles';
-
-import frutas from   '../../assets/blog_image_1.svg';
-import legumes from   '../../assets/bloco_image_2.svg';
-import citrics from   '../../assets/bloco_image_3.svg';
 
 export default function CardBlog() {
   return (
@@ -19,7 +14,7 @@ export default function CardBlog() {
         <Card>
           <Content>
             <Img>
-              <img src={frutas} alt="Quick-start guide" />
+              <img src="../../../img/blog_image_1.svg" alt="Quick-start guide" />
             </Img>
             <h2>Quick-start guide<br />
               to nuts and seeds
@@ -31,10 +26,10 @@ export default function CardBlog() {
           </Content>
           <Content>
             <Img>
-              <img src={legumes} alt=" Nutrition: Tips" />
+              <img src="../../../img/bloco_image_2.svg" alt=" Nutrition: Tips" />
             </Img>
             <h2>
-              Nutrition: Tips for <br/>
+              Nutrition: Tips for <br />
               Improving Your Health
             </h2>
             <div className="figure">
@@ -44,10 +39,10 @@ export default function CardBlog() {
           </Content>
           <Content>
             <Img>
-              <img src={citrics} alt="The top 10 benefits" />
+              <img src="../../../img/bloco_image_3.svg" alt="The top 10 benefits" />
             </Img>
             <h2>
-              The top 10 benefits<br/>
+              The top 10 benefits<br />
               of eating healthy
             </h2>
             <div className="figure">

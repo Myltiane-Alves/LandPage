@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { text, title } from '../../styles/theme';
+import { text, title } from '../../../styles/theme';
 
 export const Container = styled.div`
   flex-direction: column;
@@ -7,13 +7,13 @@ export const Container = styled.div`
   width: 100%;
   background-color: #FAFAFC;
   padding-bottom: 5rem;
-  
+
   @media (min-width: 1280px) {
     padding-bottom: 5rem;
   }
   @media (min-width: 414px)  {
     padding: 0;
-  } 
+  }
 `;
 
 export const Description = styled.div`
@@ -38,16 +38,16 @@ export const Description = styled.div`
   }
 `;
 
-export const Img = styled.div` 
+export const Img = styled.div`
   img {
    width: 300px;
    border-radius: 0.438rem;
-  } 
+  }
   @media (min-width: 768px) and (max-width: 1024px){
     img {
       width: 100%;
-    } 
-  }  
+    }
+  }
 `;
 
 export const Card = styled.div`
@@ -55,7 +55,7 @@ export const Card = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #FAFAFC;
-  
+
   @media (min-width: 1280px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -64,8 +64,8 @@ export const Card = styled.div`
   }
   @media (min-width: 768px) and (max-width: 1024px){
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-  } 
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 
 export const Content = styled.div`
@@ -98,11 +98,11 @@ export const Content = styled.div`
       height: 3.25rem;
       border-radius: 50%;
       margin-left: 1.563rem;
-      
+
       img {
         object-fit: cover;
         width: 100%;
-        height: auto;     
+        height: auto;
       }
     }
     span {
@@ -116,6 +116,6 @@ export const Content = styled.div`
   @media (min-width: 768px) and (max-width: 1024px){
     width: 60%;
     margin-left: 4rem;
-  } 
+  }
 `;
 

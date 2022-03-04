@@ -77,7 +77,7 @@ export const Content = styled.div`
         a {
           font-size: 1.3rem;
           font-weight: bold;
-          color: #FFFFFF;
+          color: gray;
           text-decoration: none;
           transition: filter 0.2s;
 

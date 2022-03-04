@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { text, title } from '../../styles/theme';
+import { text, title } from '../../../styles/theme';
 
 export const Container = styled.div`
   flex-direction: column;
@@ -11,7 +11,7 @@ export const Container = styled.div`
   @media (min-width: 414px)  {
     padding: 0;
 
-  } 
+  }
   @media (min-width: 1280px) {
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -27,21 +27,21 @@ export const Container = styled.div`
 export const Content = styled.div`
   flex-direction: column;
   background-color: #FAFAFC;
- 
+
   width: 100%;
   margin-top: 1rem;
   justify-content: center;
   align-items: center;
-  
+
   @media (min-width: 1280px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
+
   @media (min-width: 768px) and (max-width: 1024px){
     display: grid;
     grid-template-columns: 1fr 1fr ;
-  } 
+  }
 `;
 
 export const Img = styled.div`
@@ -49,9 +49,9 @@ export const Img = styled.div`
   img {
     height: 267px;
     width: 300px;
-    border-radius: 7px; 
+    border-radius: 7px;
   }
-  @media (min-width: 1280px) {  
+  @media (min-width: 1280px) {
     display: flex;
     margin-right: -11.1rem;
     margin-left: -9rem;
@@ -91,12 +91,12 @@ export const Description = styled.div`
     height: 14.63rem;
     padding-top: 4rem;
     margin: 0;
-    
+
   }
 `;
 export const ContentCard = styled.div`
   flex-direction: column;
-  box-shadow:  0 15px 20px rgba(29, 22, 77, 0.18 ); 
+  box-shadow:  0 15px 20px rgba(29, 22, 77, 0.18 );
   border-radius: 7px;
   height: 475px;
   width: 300px;
